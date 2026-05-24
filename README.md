@@ -17,6 +17,30 @@ Fresh B.Tech graduate in AI & Data Science — I build automation systems that s
 
 ---
 
+## 🛡️ Engineering Approach
+
+> **Free-tier first.** Every workflow above runs on free API limits.
+> I solve rate limits with batched loops, staggered waits, and parallel chains —
+> not by throwing money at the problem.
+
+- Error monitoring across all workflows → instant Telegram + Gmail alerts
+- Google Sheets as a lightweight ops dashboard (status, logs, deduplication)
+- Modular design — workflows are reusable and easy to hand off
+
+## 📌 Currently
+
+- 🔭 Building a **Local RAG Agent** — private LLM + document retrieval, fully offline
+- 📐 Planning **AI agent pipelines**, ML models & LLM fine-tuning projects
+- 🤝 Open to **AI automation freelance**, internships & collaborations
+
+---
+
+## 🧰 Tech Stack
+
+`n8n` `Python` `LangChain` `Ollama` `Google Gemini` `OpenAI` `HuggingFace`
+`Raspberry Pi` `Arduino` `FAISS` `ChromaDB` `Google Workspace APIs` `Telegram Bot API`
+
+---
 ## 🚀 Notable Projects
 
 ### 🎯 TARCIN Hackathon — Full Event Automation *(Freelance · Backend)*
@@ -73,32 +97,6 @@ Auto-generates personalized certificates at scale.
 - Status tracking per certificate in Google Sheets
 - **Stack:** n8n · Google Slides · Google Drive · QR API
 
----
-
-## 🛡️ Engineering Approach
-
-> **Free-tier first.** Every workflow above runs on free API limits.
-> I solve rate limits with batched loops, staggered waits, and parallel chains —
-> not by throwing money at the problem.
-
-- Error monitoring across all workflows → instant Telegram + Gmail alerts
-- Google Sheets as a lightweight ops dashboard (status, logs, deduplication)
-- Modular design — workflows are reusable and easy to hand off
-
----
-
-## 🧰 Tech Stack
-
-`n8n` `Python` `LangChain` `Ollama` `Google Gemini` `OpenAI` `HuggingFace`
-`Raspberry Pi` `Arduino` `FAISS` `ChromaDB` `Google Workspace APIs` `Telegram Bot API`
-
----
-
-## 📌 Currently
-
-- 🔭 Building a **Local RAG Agent** — private LLM + document retrieval, fully offline
-- 📐 Planning **AI agent pipelines**, ML models & LLM fine-tuning projects
-- 🤝 Open to **AI automation freelance**, internships & collaborations
 
 ---
 
