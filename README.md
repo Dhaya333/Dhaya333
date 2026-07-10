@@ -1,6 +1,12 @@
 # Hi, I'm Udhaya 👋
 ### AI Automation Engineer · Chennai, India
 
+<p align="center">
+  <a href="https://badges.n8n.io/9897a185-481e-4415-a7df-ca84e22e8a53#acc.zMYcwPtd">
+    <img src="PASTE_THE_BADGE_IMAGE_URL_HERE" alt="n8n Certified Badge" width="180">
+  </a>
+</p>
+
 Fresh B.Tech graduate in AI & Data Science — I build automation systems that solve real problems. Not just prototypes — I've shipped workflows that handled 3200+ emails without hitting Gmail limits, automated an entire hackathon backend end-to-end, and built AI pipelines that generate and sell stock images passively. I think in systems, not scripts.
 
 ---
