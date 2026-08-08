@@ -14,7 +14,6 @@ Fresh B.Tech graduate in AI & Data Science — I build automation systems that s
 | 🤖 **AI Agents** | Local RAG agent (private LLM + document retrieval) |
 | ⚡ **n8n Automation** | 10+ production workflows across events, content, fraud & outreach |
 | 🧠 **LLM Pipelines** | Gemini + OpenAI prompt chains for image metadata, fraud detection |
-| 📡 **IoT & Embedded** | Sensor systems using Raspberry Pi & Arduino |
 | 📊 **ML & Data** | Models & datasets — actively building |
 
 ---
