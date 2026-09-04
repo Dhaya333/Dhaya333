@@ -1,5 +1,5 @@
 # Hi, I'm Udhaya 👋
-### AI Automation Engineer · Chennai, India
+### AI & ML Engineer · Chennai, India
 
 [![n8n Certified](BADGE_IMAGE_URL)](https://badges.n8n.io/9897a185-481e-4415-a7df-ca84e22e8a53#acc.zMYcwPtd)
 
