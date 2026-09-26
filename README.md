@@ -1,105 +1,172 @@
 # Hi, I'm Udhaya 👋
-### AI & ML Engineer · Chennai, India
 
-[![n8n Certified](BADGE_IMAGE_URL)](https://badges.n8n.io/9897a185-481e-4415-a7df-ca84e22e8a53#acc.zMYcwPtd)
+### AI/ML Engineer · AI Automation · GenAI
 
-Fresh B.Tech graduate in AI & Data Science — I build automation systems that solve real problems. Not just prototypes — I've shipped workflows that handled 3200+ emails without hitting Gmail limits, automated an entire hackathon backend end-to-end, and built AI pipelines that generate and sell stock images passively. I think in systems, not scripts.
+Recent B.Tech graduate in Artificial Intelligence & Data Science. I build practical AI systems across **machine learning, GenAI, RAG, AI automation, and full-stack AI applications** — from trained ML models and recommendation systems to production-style agent and workflow pipelines.
+
+I focus on turning AI ideas into working systems, not just experiments.
 
 ---
 
 ## 🔧 What I Build
 
-| Domain | What I've shipped |
-|---|---|
-| 🤖 **AI Agents** | Local RAG agent (private LLM + document retrieval) |
-| ⚡ **n8n Automation** | 10+ production workflows across events, content, fraud & outreach |
-| 🧠 **LLM Pipelines** | Gemini + OpenAI prompt chains for image metadata, fraud detection |
-| 📊 **ML & Data** | Models & datasets — actively building |
+| Domain                     | What I work with                                                                    |
+| -------------------------- | ----------------------------------------------------------------------------------- |
+| 🧠 **Machine Learning**    | Supervised & unsupervised learning, feature engineering, model training, evaluation |
+| 🤖 **GenAI & LLMs**        | OpenAI, Gemini, Hugging Face, prompt engineering, multimodal AI                     |
+| 🔎 **RAG & AI Agents**     | Document retrieval, embeddings, vector databases, local LLMs, agent workflows       |
+| ⚡ **AI Automation**        | n8n, API integrations, event-driven workflows, monitoring & error handling          |
+| 🏗️ **Full-Stack AI**      | FastAPI, Streamlit, PostgreSQL, Docker, REST APIs                                   |
+| 👁️ **Computer Vision**    | Image analysis, visual inspection, multimodal AI                                    |
+| 📊 **Data & Optimization** | Feature engineering, synthetic datasets, ranking, recommendation & optimization     |
+
+---
+
+## 🚀 Notable Projects
+
+### 🌴 Wishtrip Goa Planner — ML-Powered Trip Recommendation
+
+Built a personalized trip-planning prototype using trained ML models rather than an LLM-based recommender.
+
+* Generates personalized recommendations based on user interests and travel preferences
+* ML models rank **POIs and hotels** based on user requirements
+* Optimization layer selects suitable hotels and travel options
+* Uses curated and synthetic travel data for experimentation
+* Full-stack architecture with API, database and interactive frontend
+* **Stack:** Python · CatBoost · FastAPI · Streamlit · PostgreSQL · Docker
+
+---
+
+### 🔊 AI-Driven Robotic Welding Process Analysis Using Sound
+
+Built an unsupervised ML system for detecting abnormal robotic welding processes from audio signals.
+
+* Processes real welding audio captured from MIG welding
+* Applies band-pass filtering, noise reduction and RMS-based segmentation
+* Extracts **RMS and MFCC features** from welding audio
+* Uses **Isolation Forest** for unsupervised anomaly detection
+* Provides real-time **OK / NOT OK** prediction through a Flask/WebSocket interface
+* Designed around low-latency inference for process monitoring
+* **Stack:** Python · Librosa · NumPy · SciPy · Scikit-learn · Flask · WebSocket
+
+---
+
+### 🎯 TARCIN Hackathon — Full Event Automation
+
+Built the backend automation system for a company-organized hackathon.
+
+* AI reads payment screenshots and extracts UPI transaction information
+* Duplicate transaction detection for payment verification
+* Automated participant communication from registration through event completion
+* Automated reminders, event-day communication and winner announcements
+* **Stack:** n8n · OpenAI Vision · Gmail · Google Sheets
+
+---
+
+### 📧 Startup Outreach — 3200+ Emails
+
+Built a rate-limit-aware email automation system for large-scale outreach.
+
+* Automated 3200+ emails while managing Gmail sending limits
+* Implemented controlled batching, delays and response-based follow-up
+* Added Telegram notifications for monitoring
+* Designed the workflow around reliability rather than simply maximizing throughput
+* **Stack:** n8n · Gmail · Google Sheets · Telegram
+
+---
+
+### 🔎 Local RAG Agent
+
+Built a local document-question-answering system focused on keeping data and inference local.
+
+* Document ingestion and retrieval pipeline
+* Embeddings and vector search for contextual retrieval
+* Local LLM inference for answer generation
+* Designed for private document interaction without depending entirely on cloud APIs
+* **Stack:** Python · LangChain · Ollama · FAISS / ChromaDB
+
+---
+
+### 👁️ Computer Vision AI Assignment — Hawk Aerospace
+
+Developed a computer-vision prototype for aerospace-related image analysis as part of an engineering assignment.
+
+* Processes images directly from a local system
+* Designed the inference pipeline to run on a laptop without requiring a live camera
+* Focused on practical image-analysis and AI deployment considerations
+* **Stack:** Python · Computer Vision · Deep Learning
+
+---
+
+### 🖼️ AI Stock Image Pipeline
+
+Built an end-to-end AI content generation and automation pipeline.
+
+* Generates image variations through parallel LLM workflows
+* Uses Hugging Face models for image generation
+* Automatically generates SEO metadata using multimodal AI
+* Handles API rate limits using batching and controlled execution
+* **Stack:** n8n · Google Gemini · Hugging Face · Google Drive · Google Sheets
+
+---
+
+### 🕵️ Fraud Detection System
+
+Built the backend of a multimodal scam-detection system.
+
+* Accepts text and image inputs through Telegram and webhooks
+* Uses LLM-based classification to identify potential scams
+* Returns classification, confidence and reasoning
+* Designed as an automated real-time detection workflow
+* **Stack:** n8n · OpenAI Vision · Google Gemini · Telegram · Webhooks
 
 ---
 
 ## 🛡️ Engineering Approach
 
-> **Free-tier first.** Every workflow above runs on free API limits.
-> I solve rate limits with batched loops, staggered waits, and parallel chains —
-> not by throwing money at the problem.
+I prefer building systems around **clear data flow, modular components and measurable behavior**.
 
-- Error monitoring across all workflows → instant Telegram + Gmail alerts
-- Google Sheets as a lightweight ops dashboard (status, logs, deduplication)
-- Modular design — workflows are reusable and easy to hand off
-
-## 📌 Currently
-
-- 🔭 Building a **Local RAG Agent** — private LLM + document retrieval, fully offline
-- 📐 Planning **AI agent pipelines**, ML models & LLM fine-tuning projects
-- 🤝 Open to **AI automation freelance**, internships & collaborations
+* Build ML models when the problem benefits from actual learned behavior
+* Use LLMs where language or multimodal reasoning adds value
+* Use deterministic logic where it is more reliable than an LLM
+* Design APIs and workflows so individual components can be replaced independently
+* Add logging, monitoring and error handling instead of treating the happy path as the whole system
+* Prefer lightweight, practical architectures that can actually be deployed
 
 ---
 
 ## 🧰 Tech Stack
 
-`n8n` `Python` `LangChain` `Ollama` `Google Gemini` `OpenAI` `HuggingFace`
-`Raspberry Pi` `Arduino` `FAISS` `ChromaDB` `Google Workspace APIs` `Telegram Bot API`
+### AI / ML
 
----
-## 🚀 Notable Projects
+`Python` `Scikit-learn` `CatBoost` `Pandas` `NumPy` `SciPy` `Librosa`
 
-### 🎯 TARCIN Hackathon — Full Event Automation *(Freelance · Backend)*
-Built the entire backend automation for a company-organized hackathon.
-- AI reads payment screenshots → extracts UPI transaction ID, amount, bank name
-- Duplicate UPI detection to prevent payment fraud
-- Automated email pipeline: welcome → reminder → event day → winner announcement
-- Sent to HOD, Principal, company & participants — zero manual effort on event day
-- **Stack:** n8n · OpenAI Vision · Gmail · Google Sheets
+### GenAI / LLM
 
----
+`OpenAI` `Google Gemini` `Hugging Face` `LangChain` `Ollama` `RAG` `Prompt Engineering`
 
-### 📧 Startup Outreach — 3200+ Cold Emails, Zero Bans *(Personal ·  Greendigo)*
-Built a rate-limit-aware email system for my startup's data collection survey.
-- Engineered send pacing + wait logic to stay within Gmail's daily limits
-- Dual-loop system: survey email → 2hr gap → thank you email on response
-- Telegram notifications for real-time send status monitoring
-- **Stack:** n8n · Gmail · Google Sheets · Telegram
+### AI Infrastructure
+
+`n8n` `FAISS` `ChromaDB` `FastAPI` `Flask` `WebSocket`
+
+### Development / Deployment
+
+`Streamlit` `PostgreSQL` `Docker` `REST APIs` `Google Workspace APIs` `Telegram Bot API`
+
+### Embedded / IoT
+
+`Raspberry Pi` `Arduino`
 
 ---
 
-### 🖼️ AI Stock Image Pipeline — Passive Income System *(Personal)*
-End-to-end automation to generate, enhance, and list AI stock images for sale.
-- Bulk prompt engineering via 10 parallel Gemini LLM chains (prompt → 10 variations)
-- 15 parallel HuggingFace model calls for bulk image generation
-- Gemini Vision auto-generates SEO metadata (title, tags, description) per image
-- Rate-limit management: batched loops + timed waits across all free-tier APIs
-- **Stack:** n8n · Google Gemini · HuggingFace · Google Drive · Google Sheets
+## 📌 Currently
+
+* 🔭 Building practical **AI/ML and GenAI applications**
+* 🧠 Exploring **AI agents, RAG systems and multimodal AI**
+* 📊 Developing ML systems with real datasets, feature engineering and model evaluation
+* ⚙️ Building AI automation workflows with **n8n**
+* 🤝 Open to **AI/ML, GenAI, AI Automation and AI Engineering opportunities**
 
 ---
 
-### 🕵️ Fraud Detection System *(Hackathon · Team Project · Backend)*
-Real-time scam detection tool with Telegram + web inputs.
-- Accepts text or image input via Telegram bot or website webhook
-- LLM classifies message as SCAM / LEGIT / UNKNOWN with confidence score + reason
-- Built the full backend; team handled data collection and frontend
-- **Stack:** n8n · OpenAI Vision · Google Gemini · Telegram · Webhook
-
----
-
-### 🎬 Faceless YouTube Automation *(Personal · Built & Tested)*
-Fully automated video creation and upload pipeline — no human in the loop.
-- Reads content ideas from sheet → AI generates script & caption
-- Calls video generation API → polls status → fetches file → uploads to YouTube
-- Error logging + status tracking back to Google Sheets
-- **Stack:** n8n · OpenAI · YouTube API · Google Sheets
-
----
-
-### 🏅 Bulk Certificate Generator *(Freelance · Cifware)*
-Auto-generates personalized certificates at scale.
-- Copies Google Slides template per participant → replaces name/details → converts to PNG
-- Generates unique QR code per certificate, cleans up temp files after
-- Status tracking per certificate in Google Sheets
-- **Stack:** n8n · Google Slides · Google Drive · QR API
-
-
----
-
-
-*"I don't just automate tasks — I automate outcomes."*
+> **I build AI systems that move from data and models to working applications.**
